@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculate</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>Age Calculator</h3>
+  <div class="DFB">
+    <h4>Select your date of birth</h4>
+    <form action="#">
+
+      <select name="month" id="mm">
+        <option value="" selected disabled>Month</option>
+      </select>
+    
+      <select name="day" id="dd">
+        <option value="" selected disabled>Day</option>
+      </select>
+    
+      <select name="year" id="yy">
+        <option value="" selected disabled>year</option>
+      </select><br>
+
+      <button type="submit" id="calculate">Calculate</button>
+
+    </form>
+    <div class="result">
+      <h4>You are:</h4>
+      <p class="age-year"></p>
+    </div>
+    <div class="result-1">
+        <h4>Remaining days for birthday:</h4>
+        <p class="remaining-time"></p>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
